@@ -180,10 +180,14 @@
             width: 200px;
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
             transition: transform 0.3s;
+            text-decoration: none;
+            color: inherit;
+            display: block;
         }
         
         .category-card:hover {
             transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
         }
         
         .category-card i {
@@ -484,7 +488,7 @@
                 
                 <nav>
                     <ul>
-                        <li><a href="#">Home</a></li>
+                        <li><a href="index.html">Home</a></li>
                         <li><a href="#">Image Tools</a></li>
                         <li><a href="#">PDF Tools</a></li>
                         <li><a href="#">Pricing</a></li>
@@ -519,31 +523,30 @@
                 </button>
             </div>
             
-           <div class="tool-categories">
-              <a href="img-compression.html" class="category-card">
-              <i class="fas fa-compress-arrows-alt"></i>
-              <h3>Compress</h3>
-              <p>Reduce file size</p>
-              </a>
-            </div>
+            <div class="tool-categories">
+                <a href="img-compression-tools" class="category-card">
+                    <i class="fas fa-compress-arrows-alt"></i>
+                    <h3>Compress</h3>
+                    <p>Reduce file size</p>
+                </a>
                 
-                <div class="category-card">
+                <a href="#convert-tools" class="category-card">
                     <i class="fas fa-exchange-alt"></i>
                     <h3>Convert</h3>
                     <p>Change formats</p>
-                </div>
+                </a>
                 
-                <div class="category-card">
+                <a href="#edit-tools" class="category-card">
                     <i class="fas fa-edit"></i>
                     <h3>Edit</h3>
                     <p>Modify content</p>
-                </div>
+                </a>
                 
-                <div class="category-card">
+                <a href="#secure-tools" class="category-card">
                     <i class="fas fa-lock"></i>
                     <h3>Secure</h3>
                     <p>Protect files</p>
-                </div>
+                </a>
             </div>
         </div>
     </section>
